@@ -121,7 +121,24 @@
     font-size: 50px;
     font-weight: bold;
 }
-
+.company h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.company button{
+    width: 210px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 4px;
+}
+.company button a{
+    font-size: 13px;
+    text-decoration: none;
+    color: brown;
+}
 .cTalk {
     text-align: center;
 }
@@ -163,4 +180,23 @@
     text-decoration: none;
     color: white;
     font-size: 13px;
+}
+.first h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: transparent;
+}
+
+
+/* Styling the newBanner image section  */
+
+.newBanner{
+    background-image: url(../img/the-highway-1180650.jpg);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.organiz{
+    text-align: center;
 }
