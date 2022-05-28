@@ -1,15 +1,166 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 /* Styling the navbar  */
-.navbar-brand{
+.hd {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 38px;
+    color: white;
+    text-decoration: none;
 }
 
-.navbar{
+.hd:hover {
+    color: black;
+}
+
+.navbar {
     box-shadow: 0 4px 10px brown;
+}
+
+.navbar-nav a {
+    color: whitesmoke;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.navbar:hover {
+    background-color: white;
+}
+
+/* Styling the slider  */
+.carousel-item .dive {
+    background-image: url(../img/istockphoto-1308462599-612x612.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item .dive h5 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.carousel-item .dive a {
+    margin-bottom: 22%;
+    margin-top: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-item .dive1 {
+    background-image: url(../img/the-highway-1180650.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item .dive1 h5 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.carousel-item .dive1 a {
+    margin-bottom: 15%;
+    margin-top: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-item .dive2 {
+    background-image: url(../img/istockphoto-1314038159-612x612.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item .dive2 h5 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.carousel-item .dive2 a {
+    margin-bottom: 15%;
+    margin-top: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-item .dive3 {
+    background-image: url(../img/istockphoto-1313422847-612x612.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item .dive3 h5 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.carousel-item .dive3 a {
+    margin-bottom: 20%;
+    margin-top: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.company {
+    text-align: center;
+}
+
+.company h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cTalk {
+    text-align: center;
+}
+
+/* This changes the image when we hover over it; still working on it though  
+.c1 img:hover {
+    background-image: url(../img/the-highway-1180650.jpg);
+    width: 100%;
+    height: 300px;
+}
+*/
+
+.cTalk button {
+    width: 180px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.cTalk button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling Company's section button  */
+.cTalk1 button {
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+}
+.cTalk1 button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1px;
 }
