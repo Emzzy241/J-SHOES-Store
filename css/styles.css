@@ -16,6 +16,13 @@
     color: black;
 }
 
+.hed {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 .navbar {
     box-shadow: 0 4px 10px brown;
 }
@@ -31,6 +38,28 @@
 .navbar:hover {
     background-color: white;
 }
+/* Making our links look nice  */
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: aqua;
+    position: absolute;
+    left: 0;
+    right: 0;  
+    bottom: -1px;
+}
+
 
 /* Styling the slider  */
 .carousel-item .dive {
@@ -121,11 +150,13 @@
     font-size: 50px;
     font-weight: bold;
 }
-.company h2{
+
+.company h2 {
     font-size: 40px;
     font-weight: bold;
 }
-.company button{
+
+.company button {
     width: 210px;
     padding: 15px 0;
     text-align: center;
@@ -134,11 +165,13 @@
     background-color: black;
     border-radius: 4px;
 }
-.company button a{
+
+.company button a {
     font-size: 13px;
     text-decoration: none;
     color: brown;
 }
+
 .cTalk {
     text-align: center;
 }
@@ -176,12 +209,14 @@
     background-color: black;
     border-radius: 5px;
 }
-.cTalk1 button a{
+
+.cTalk1 button a {
     text-decoration: none;
     color: white;
     font-size: 13px;
 }
-.first h3{
+
+.first h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background: transparent;
@@ -190,13 +225,51 @@
 
 /* Styling the newBanner image section  */
 
-.newBanner{
+.newBanner {
     background-image: url(../img/the-highway-1180650.jpg);
     height: 700px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.organiz{
+
+.organiz {
     text-align: center;
+}
+
+/* Styling the shop the brand section */
+.divbrand h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: -400px;
+    margin-left: 75px;
+    font-weight: bolder;
+}
+
+.divbrand a {
+    text-decoration: none;
+}
+
+.divbrand1 h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: -250px;
+    margin-left: 75px;
+    font-weight: bolder;
+}
+
+.divbrand1 a {
+    text-decoration: none;
+}
+
+.divbrand2 h1{
+    font-size: 50px;
+    color: white;
+    margin-top: -250px;
+    margin-left: 360px;
+    font-weight: bolder;
+}
+
+.divbrand2 a {
+    text-decoration: none;
 }
