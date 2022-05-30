@@ -369,3 +369,6 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
     margin: 10px;
     cursor: pointer;
 }
+.social-icons a{
+    display: inline-flex;
+}
