@@ -303,7 +303,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 .footer{
     margin-top: 150px;
     width: 100%;
-    padding: 100px 15%;
+    padding: 100px 10%;
     background: #333;
     color: #efefef;
     display: flex;
@@ -313,7 +313,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
     text-align: center;
 }
 
-.footer .col-md-5 {
+.footer .col-md-3 {
     flex-grow: 2;
 }
 
@@ -327,14 +327,14 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 
 /* Styling the links in footer  */
 
-.col-md-4 a{
+.col-md-3 a{
     display: block;
     text-decoration: none;
     color: #efefef;
     margin-bottom: 10px;
     
 }
-.col-md-4 a:hover{
+.col-md-3 a:hover{
     color: gray;
 }
 
