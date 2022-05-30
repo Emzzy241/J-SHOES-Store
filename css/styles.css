@@ -284,6 +284,20 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 .divbrand2 a {
     text-decoration: none;
 }
+/* tHE INSTAGRAM SECTION  */
+.divinstagram{
+    text-align: center;
+}
+.divinstagram h1{
+    margin-top: -500px;
+    font-size: 50px;
+    color: white;
+    
+}
+.divinstagram button{
+    margin-top: -250px;
+}
+
 
 /* The footer section  */
 .footer{
