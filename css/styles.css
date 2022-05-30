@@ -38,26 +38,37 @@
 .navbar:hover {
     background-color: white;
 }
+
 /* Making our links look nice  */
-.navbar ul li{
+.navbar ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color: white;
     position: relative;
 }
-.navbar ul li ::after{
+
+.navbar ul li ::after {
     content: '';
     height: 3px;
-    width: 100%;
+    width: 0;
     background: aqua;
     position: absolute;
     left: 0;
-    right: 0;  
-    bottom: -1px;
+    right: 0;
+    bottom: 10px;
+    transition: 0.6s;
+}
+
+/*
+above by setting width=0, we are hiding our line, now let's make it :focus-visible
+ when we hover over it  */
+.navbar ul li:hover ::after {
+    width: 100%;
 }
 
 
@@ -262,14 +273,85 @@
     text-decoration: none;
 }
 
-.divbrand2 h1{
+.divbrand2 h1 {
     font-size: 50px;
     color: white;
     margin-top: -250px;
-    margin-left: 360px;
+    margin-left: 200px;
     font-weight: bolder;
 }
 
 .divbrand2 a {
     text-decoration: none;
+}
+
+/* The footer section  */
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.footer .col-md-5 {
+    flex-grow: 2;
+}
+
+/* Adding the css for the titles  */
+
+.footer div h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* Styling the links in footer  */
+
+.col-md-4 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    
+}
+.col-md-4 a:hover{
+    color: gray;
+}
+
+/* Styling the Email part i our footer */
+
+.footer form input{
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+.footer form button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Styling our icons  */
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
 }
