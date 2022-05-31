@@ -23,10 +23,6 @@
     text-decoration: none;
 }
 
-.navbar {
-    box-shadow: 0 4px 10px brown;
-}
-
 .navbar-nav a {
     color: whitesmoke;
 }
@@ -371,4 +367,44 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 .social-icons a{
     display: inline-flex;
+}
+
+
+/* Styling the kids.html section  */
+
+/* Styling the banner section  */
+
+.allKidsBanner{
+    background-image: url(../img/istockphoto-1308462599-612x612.jpg);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.allKidsBanner h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-left: 55px;
+    margin-top: 110px;
+    color: white;
+}
+.allKidsBanner h2 b{
+    font-style: italic;
+}
+
+/* Styling the second navigation in kids.html  */
+.allkids{
+    height: 2px;
+}
+.allkids ul  li{
+    background-color: black;
+    margin-right: 20px;
+}
+.allkids ul li a{
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.allkids ul li a:hover{
+    background-color: yellowgreen;
 }
