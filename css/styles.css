@@ -512,6 +512,17 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 
 /* styling the WHAT'S TRENDING SECTION  */
 
-.trend p{
+#trend p{
+    text-align: center;
+}
+
+/* styliing the boys section  */
+
+.shoesBoys p{
+    text-align: center;
+}
+
+/* styling the girls section  */
+.shoesGirls p{
     text-align: center;
 }
