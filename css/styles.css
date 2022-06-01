@@ -473,18 +473,38 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 /* styling the second age group under age div: big kids  */
-.bigKids .big{
+.bigKids .big {
     color: black;
     margin-left: 30px;
     margin-top: -350px;
 }
 
-.bigKids .big h3{
+.bigKids .big h3 {
     font-weight: bold;
     font-size: 30px;
 }
 
-.bigKids .big a{
+.bigKids .big a {
     text-decoration: none;
     color: black;
+}
+
+.grow .container {
+    background-color: gainsboro;
+}
+
+.grow h1 {
+    font-size: 85px;
+    color: black;
+    text-align: center;
+
+}
+
+.grow .container a{
+    font-size: 30px;
+    color: black;
+}
+
+.grow .col-md-2{
+    text-align: center;
 }
