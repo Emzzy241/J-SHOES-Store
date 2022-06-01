@@ -489,6 +489,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
     color: black;
 }
 
+/* Styling the THEY GROW SO FAST section  */
 .grow .container {
     background-color: gainsboro;
 }
@@ -506,5 +507,11 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 .grow .col-md-2{
+    text-align: center;
+}
+
+/* styling the WHAT'S TRENDING SECTION  */
+
+.trend p{
     text-align: center;
 }
