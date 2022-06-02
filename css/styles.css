@@ -529,13 +529,8 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 
-#little .row h6 {
+.row h6 {
     text-align: center;
-    font-weight: bold;
-}
-
-.col-md-2 p {
-    margin-right: -60px;
     font-weight: bold;
 }
 
@@ -555,6 +550,23 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 .shopNow ul li a:hover {
+    background-color: yellowgreen;
+    color: white;
+}
+
+/* Shop noe button for toddlers  */
+.shopNow1{
+    height: 5px;
+}
+.shopNow1 ul li{
+    background-color: black;
+    margin-left: -300px;
+}
+.shopNow1 ul li a{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.shopNow1 ul li a:hover{
     background-color: yellowgreen;
     color: white;
 }
