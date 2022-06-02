@@ -419,6 +419,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 
 .allkids ul li a:hover {
     background-color: yellowgreen;
+    color: white;
 }
 
 /* Styling the age section  */
@@ -516,13 +517,39 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
     text-align: center;
 }
 
-/* styliing the boys section  */
-
-.shoesBoys p{
+.row h3{
     text-align: center;
+}    
+
+/* Styling the .littleKids boots section  */
+
+#little h4{
+    margin-left: 800px;
+    margin-bottom: -70px;
+}
+#little .row h6{
+    text-align: center;
+    font-weight: bold;
 }
 
-/* styling the girls section  */
-.shoesGirls p{
-    text-align: center;
+.col-md-2 p{
+    margin-right: -60px;
+    font-weight: bold;
+}
+
+
+.shopNow{
+    height: 5px;
+}
+.shopNow ul li{
+    background-color: black;
+    margin-left: 300px;
+}
+.shopNow ul li a{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.shopNow ul li a:hover{
+    background-color: yellowgreen;
+    color: white;
 }
