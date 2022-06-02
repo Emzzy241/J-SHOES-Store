@@ -438,16 +438,16 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 
 /* Styling the first age group under age div: toddlers  */
 .toddlers .tdd {
-    text-align: center;
+    text-align: right;
     color: black;
-    margin-left: 200px;
     margin-top: -180px;
-
 }
 
 .toddlers .tdd h3 {
     font-weight: bold;
     font-size: 30px;
+    text-align: right;    
+
 }
 
 .toddlers .tdd a {
@@ -476,13 +476,14 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 /* styling the second age group under age div: big kids  */
 .bigKids .big {
     color: black;
-    margin-left: 30px;
     margin-top: -350px;
+    text-align: left;
 }
 
 .bigKids .big h3 {
     font-weight: bold;
     font-size: 30px;
+    text-align: left;
 }
 
 .bigKids .big a {
@@ -502,54 +503,58 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 
 }
 
-.grow .container a{
+.grow .container a {
     font-size: 30px;
     color: black;
 }
 
-.grow .col-md-2{
+.grow .col-md-2 {
     text-align: center;
 }
 
 /* styling the WHAT'S TRENDING SECTION  */
 
-#trend p{
+#trend p {
     text-align: center;
 }
 
-.row h3{
+.row h3 {
     text-align: center;
-}    
+}
 
 /* Styling the .littleKids boots section  */
-
-#little h4{
-    margin-left: 800px;
-    margin-bottom: -70px;
+.hedd{
+    display: inline-flex;
+    margin-left: 300px;
 }
-#little .row h6{
+
+
+#little .row h6 {
     text-align: center;
     font-weight: bold;
 }
 
-.col-md-2 p{
+.col-md-2 p {
     margin-right: -60px;
     font-weight: bold;
 }
 
 
-.shopNow{
+.shopNow {
     height: 5px;
 }
-.shopNow ul li{
+
+.shopNow ul li {
     background-color: black;
     margin-left: 300px;
 }
-.shopNow ul li a{
+
+.shopNow ul li a {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
-.shopNow ul li a:hover{
+
+.shopNow ul li a:hover {
     background-color: yellowgreen;
     color: white;
 }
