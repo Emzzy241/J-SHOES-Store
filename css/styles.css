@@ -446,7 +446,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 .toddlers .tdd h3 {
     font-weight: bold;
     font-size: 30px;
-    text-align: right;    
+    text-align: right;
 
 }
 
@@ -523,7 +523,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 /* Styling the .littleKids boots section  */
-.hedd{
+.hedd {
     display: inline-flex;
     margin-left: 300px;
 }
@@ -555,18 +555,74 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 /* Shop noe button for toddlers  */
-.shopNow1{
+.shopNow1 {
     height: 5px;
 }
-.shopNow1 ul li{
+
+.shopNow1 ul li {
     background-color: black;
     margin-left: -300px;
 }
-.shopNow1 ul li a{
+
+.shopNow1 ul li a {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
-.shopNow1 ul li a:hover{
+
+.shopNow1 ul li a:hover {
     background-color: yellowgreen;
     color: white;
+}
+
+
+
+
+
+
+/* Styling the women.html page  */
+
+/* Styling the banner image section  */
+
+.woman {
+    background-image: url(../img/istockphoto-1308462599-612x612.jpg);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.woman h1 {
+    margin-left: 300px;
+    margin-top: 70px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.woman h1 b {
+    font-style: italic;
+}
+
+/* Styling the women shoes banner image */
+
+.hedd1 h3 {
+    font-size: 28px;      
+}
+
+/* Styling the new arrivals section  */
+.arrivals h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.arrivals a {
+    color: white;
+    height: 38px;
+}
+
+#newArrivals .color{
+    background-color: green;
 }
