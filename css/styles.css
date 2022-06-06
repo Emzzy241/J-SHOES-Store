@@ -232,13 +232,6 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 
 /* Styling the newBanner image section  */
 
-.newBanner {
-    background-image: url(../img/the-highway-1180650.jpg);
-    height: 700px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .organiz {
     text-align: center;
