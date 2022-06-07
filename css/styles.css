@@ -69,8 +69,27 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 
 
 /* Styling the slider  */
+.carousel-item .dive4{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),  url(../img/head1.jpg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+.dive4 h5{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+.carousel-item .dive4 a{
+    margin-bottom: 25%;
+    margin-top: 25px;
+    color: black;
+    font-weight: bold;
+}
 .carousel-item .dive {
-    background-image: url(../img/istockphoto-1308462599-612x612.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),  url(../img/12.jpg);
     width: 100%;
     height: 550px;
     background-size: cover;
@@ -83,14 +102,14 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 .carousel-item .dive a {
-    margin-bottom: 22%;
+    margin-bottom: 25%;
     margin-top: 25px;
     color: black;
     font-weight: bold;
 }
 
 .carousel-item .dive1 {
-    background-image: url(../img/the-highway-1180650.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),  url(../img/blue.jpg);
     width: 100%;
     height: 550px;
     background-size: cover;
@@ -110,7 +129,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 .carousel-item .dive2 {
-    background-image: url(../img/istockphoto-1314038159-612x612.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/10.jpeg);
     width: 100%;
     height: 550px;
     background-size: cover;
@@ -130,7 +149,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 .carousel-item .dive3 {
-    background-image: url(../img/istockphoto-1313422847-612x612.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/6rock.jpg);
     width: 100%;
     height: 550px;
     background-size: cover;
@@ -183,13 +202,6 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
     text-align: center;
 }
 
-/* This changes the image when we hover over it; still working on it though  
-.c1 img:hover {
-    background-image: url(../img/the-highway-1180650.jpg);
-    width: 100%;
-    height: 300px;
-}
-*/
 
 .cTalk button {
     width: 180px;
