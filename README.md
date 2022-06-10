@@ -12,10 +12,10 @@
 * Javascript
 
 #### Description
-_This is a website that makes buying a shoe super easy, it was designed by me Mojiboye Emmanuel. The website was built with very simple and basic technologies which has been detailed above_
+_This is a website that makes buying and selling a shoe super easy, it was designed by me Mojiboye Emmanuel. The website was built from scratch to the top with very simple and basic technologies which has been detailed above_
 
 ## Setup/Installation
-* _Once you have the website on your device the installation process is also super easy_
+* _Once you have the website on your device the installation process is super easy_
 
 * First Open the directory
 * _Second click on the index.html file_
@@ -29,7 +29,7 @@ _As at now there are zero bugs in this Project but as a help zone to everyone I 
 
 ## License 
 Licensed under the GNU General Public License 
-© 2022 _Mojiboye Emmanuel_ All Rights Reserved.
+© 2022 _by Mojiboye Emmanuel_ All Rights Reserved.
 
 ## Contact
 _Connect with me @Emmanuel.9944 on instagram and on all other social media pages all @Emmanuel Oluwole_
