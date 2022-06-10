@@ -632,3 +632,25 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 #newArrivals .color{
     background-color: green;
 }
+
+
+/* Styling the men.html page  */
+
+.man{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(../img/head.jpg);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.man h1{
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 45px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.man h1 b{
+    font-style: italic;
+}
