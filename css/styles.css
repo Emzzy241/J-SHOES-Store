@@ -69,27 +69,30 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 
 
 /* Styling the slider  */
-.carousel-item .dive4{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),  url(../img/head1.jpg);
+.carousel-item .dive4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/head1.jpg);
     width: 100%;
     height: 550px;
     background-size: cover;
     background-position: center;
 }
-.dive4 h5{
+
+.dive4 h5 {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: bolder;
-    
+
 }
-.carousel-item .dive4 a{
+
+.carousel-item .dive4 a {
     margin-bottom: 25%;
     margin-top: 25px;
     color: black;
     font-weight: bold;
 }
+
 .carousel-item .dive {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),  url(../img/12.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/12.jpg);
     width: 100%;
     height: 550px;
     background-size: cover;
@@ -109,7 +112,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 .carousel-item .dive1 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),  url(../img/blue.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/blue.jpg);
     width: 100%;
     height: 550px;
     background-size: cover;
@@ -531,7 +534,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 /* Styling the .littleKids boots section  */
 .hedd {
     display: inline-flex;
-    margin-left: 300px;
+    margin-left: 130px;
 }
 
 
@@ -547,7 +550,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 
 .shopNow ul li {
     background-color: black;
-    margin-left: 300px;
+    margin-left: 130px;
 }
 
 .shopNow ul li a {
@@ -560,25 +563,6 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
     color: white;
 }
 
-/* Shop noe button for toddlers  */
-.shopNow1 {
-    height: 5px;
-}
-
-.shopNow1 ul li {
-    background-color: black;
-    margin-left: -300px;
-}
-
-.shopNow1 ul li a {
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.shopNow1 ul li a:hover {
-    background-color: yellowgreen;
-    color: white;
-}
 
 
 
@@ -590,7 +574,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 /* Styling the banner image section  */
 
 .woman {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(../img/brand.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(../img/brand.jpg);
     width: 100%;
     height: 550px;
     background-repeat: no-repeat;
@@ -598,7 +582,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 }
 
 .woman h1 {
-    margin-left: 300px;
+    margin-left: 130px;
     margin-top: 70px;
     font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -612,7 +596,7 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
 /* Styling the women shoes banner image */
 
 .hedd1 h3 {
-    font-size: 28px;      
+    font-size: 28px;
 }
 
 /* Styling the new arrivals section  */
@@ -629,14 +613,14 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
     height: 38px;
 }
 
-#newArrivals .color{
+#newArrivals .color {
     background-color: green;
 }
 
 
 /* Styling the men.html page  */
 
-.man{
+.man {
     background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(../img/head.jpg);
     width: 100%;
     height: 550px;
@@ -644,13 +628,40 @@ above by setting width=0, we are hiding our line, now let's make it :focus-visib
     background-size: cover;
 }
 
-.man h1{
+.man h1 {
     margin-left: 100px;
     margin-top: 70px;
     font-size: 45px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.man h1 b{
+
+.man h1 b {
     font-style: italic;
+}
+
+
+/* Brand divs for all pages  */
+
+.brand1 h3 {
+    font-size: 40px;
+    margin-top: -420px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.brand2 h3 {
+    font-size: 40px;
+    margin-top: -715px;
+    color: white;
+    font-weight: bold;
+}
+
+.brand3 h3 {
+    font-size: 40px;
+    margin-top: -630px;
+    color: white;
+    font-weight: bold;
+
 }
